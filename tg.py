@@ -1,6 +1,6 @@
 from telegram import Update, ParseMode
 from telegram.ext import Updater, MessageHandler, Filters, CallbackContext
-import time
+import time,my_module
 from key import chatbot
 
 
