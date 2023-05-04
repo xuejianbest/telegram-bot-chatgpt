@@ -1,8 +1,8 @@
-import os
+import os,my_module
 from revChatGPT.V3 import Chatbot
 
 chatbot = Chatbot(
-    api_key = "YOUR_API_KEY",
+    api_key = my_module.GPT_API_KEY,
     engine = "gpt-3.5-turbo",
     proxy = None,
     timeout = None,

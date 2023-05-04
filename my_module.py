@@ -1,3 +1,13 @@
+# tg user_id
+tg_bot_whitelist= []
+
+TG_BOT_TOKEN = ''
+GPT_API_KEY = ''
+
+TG_BOT_TOKEN_1 = ''
+GPT_ACCESS_TOKEN = ''
+########### ########## ############
+
 def check_quotes(s):
     backticks = s.count('```')
     single_quotes = s.count('`') - 3 * backticks
